@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Bootstrap Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #00000000;
+            font-family: 'Inter', 'Gill Sans',;
+        }
+        .main-card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 1px 30px rgb(0, 0, 0);
+            transition: transform 0.3s ease;
+        }
+        .btn-custom {
+            background: linear-gradient(45deg, #ff2f2f, #5a36ff);
+            border: none;
+            padding: 10px 25px;
+            border-radius: 8px;
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+        }
+        .btn-custom:hover {
+            opacity: 0.9;
+            color: rgb(109, 5, 5);
+        }
+        .table thead {
+            background-color: #86fbffd0;
+            color: white;
+        }
+        .table-container {
+            border-radius: 30px;
+            overflow: hidden; /* Agar sudut tabel melengkung */
+        }
+        .welcome-section {
+            padding: 40px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-8 welcome-section">
+            <h1 class="display-4 fw-bold text-dark">Selamat Datang di <span class="text-primary">HIMANKA</span></h1>
+            <p class="lead text-muted">Himpunan Manajemen Informatika</p>
+            <a href="http://127.0.0.1:5500/Minggu%203/Tabel.html"class="btn btn-custom shadow-sm">Klik Di sini</a>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" id="data-table">
+        <div class="col-md-10">
+            <div class="card main-card">
+                <div class="card-body p-4">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h3 class="fw-bold mb-0">Daftar Anggota</h3>
+                        <span class="badge bg-soft-primary text-primary border border-primary px-3 py-2">Total: 4 User</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
